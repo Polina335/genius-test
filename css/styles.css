@@ -1,32 +1,31 @@
 :root {
     --color-brand-light: rgba(129, 155, 87, 1);
     --color-brand-dark: rgba(70, 89, 41, 1);
-    --colot-primary-dark: rgba(49, 38, 26, 1);
     --color-primary-light: rgba(250, 244, 234, 1);
+    --color-primary-dark: rgba(49, 38, 26, 1);
 }
 
 /*Base*/
 body {
-    color: var(--colot-primary-dark);
+    color: var(--color-primary-dark);
 }
 
 ul {
-    list-style-type: none;
+list-style-type: none;
 }
 
 /*button*/
-.button-primery {
+.button-primary {
     color: var(--color-primary-light);
     background-color: var(--color-brand-light);
     border: 2px solid var(--color-brand-light);
     border-radius: 8px;
     cursor: pointer;
-
 }
 
-.button-primery:hover {
+.button-primary:hover {
     color: var(--color-brand-dark);
-    background-color: transparent;
+    background-color: transparent; /*прозорий*/
     border: 2px solid var(--color-brand-light);
     border-radius: 8px;
 }
@@ -46,7 +45,7 @@ ul {
 }
 
 .hero-title .accent {
-    color: var(--color-brand-light)
+    color: var(--color-brand-dark);
 }
 
 /*advantages-section*/
